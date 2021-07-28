@@ -6,7 +6,7 @@
 	/* border: 1px solid #cacaca; */
 }
 
-a:link {
+a:link, a:visited {
 	text-decoration: none;
 	color: black;
 }
@@ -29,7 +29,7 @@ body {
 	background-position: top left, bottom right;
 	background-repeat: no-repeat, no-repeat;
 	/* background-size: contain; */
-	/* border: 1px solid black; */
+	border: 1px solid black;
 	margin: 0 auto;
 	padding: 64px 48px;
 	font-family: 'Roboto', sans-serif;
@@ -188,7 +188,7 @@ div.bar>div {
 	border-radius: 4px;
 	border: 1px solid #2CBFAA;
 }
-/* 1A7265 */
+
 div.bar>div.filled {
 	background-color: #2CBFAA;
 }
